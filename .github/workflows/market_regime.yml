@@ -2,8 +2,8 @@ name: Will Streep Market Regime
 
 on:
   schedule:
-    # Cada hora, al minuto 5
-    - cron: "5 * * * *"
+    # Cada hora, al minuto 17
+    - cron: "17 * * * *"
 
   # Permite ejecutarlo manualmente para probarlo
   workflow_dispatch:
